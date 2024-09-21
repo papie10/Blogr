@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    padding: 50px;
+    justify-content: space-between;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+  
+nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: hsl(13, 100%, 72%);
+  }
+
+  nav li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover, .dropdown:hover .dropbtn {
+    background-color:hsl(13, 100%, 72%);
+  }
+  
+  nav li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.sign{
+    background-color: white;
+    color:hsl(353, 100%, 62%);
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}  
+
+.Login{
+    background-color: white;
+    color:hsl(353, 100%, 62%);
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.active{
+    float: right;
+  
+}
+.hero{
+    background-color: hsl(13, 100%, 72%);
+}
+.hero img{
+    /* width: 50%;
+    height: 50vh; */
+}
+
+.Start{
+    background-color: white;
+    color:hsl(353, 100%, 62%);
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin: 10px;
+}
+
+.learn{
+    background-color: white;
+    color:hsl(353, 100%, 62%);
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin: 10px;
+
+}
+
+
+.hero-text{
+    color: white;
+    text-align: center;
+    /* font-family: "Overpass", sans-serif; */
+    padding: 100px 0px;
+}
+.hero-text h1{
+  font-family: "Overpass", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.hero-text p{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+}
+
+
+.features{
+    display: flex;
+    border: none;
+}
+.feature h2{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin:50px;
+  color: hsl(208, 49%, 24%);
+  
+}
+
+.features-text{
+    flex-basis: 50%;
+    padding: 20px;
+    margin: 50px;
+    margin-top: 100px;
+
+}
+
+.features-text  h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  color: hsl(208, 49%, 24%);
+  padding: 20px 0;
+}
+.features-text p{
+  font-family: "Overpass", sans-serif;
+  font-weight: 300;
+  color: hsl(207, 13%, 34%);
+  padding: 20px 0;
+
+}
+
+
+.features-image{
+    flex-basis: 50%;
+    
+}
+
+.State{
+  border: none;
+  background-color: hsl(237, 23%, 32%);
+  height: 60vh;
+  display: flex;
+ 
+  margin-top: 70px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.State-img{
+  flex-basis: 50%;
+  position: relative;
+  bottom: 100px;
+}
+
+.State-text{
+  flex-basis: 50%;
+  text-align: left;
+  color: white;
+   margin-top: 50px;
+}
+
+.State-text h3{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  padding: 20px 0;
+ 
+
+}
+
+.State-text p{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+footer{
+  background-color: hsl(240, 10%, 16%);
+  color: hsl(240, 2%, 79%);
+}
+
+.footer-container{
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+ul {
+  list-style: none;
+  text-decoration: none;
+  color: hsl(240, 2%, 79%);
+}
+a {
+  
+  color: hsl(240, 2%, 79%);
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+
+.footer-logo,
+.Product-info,
+.Company-info,
+.Connect-info{
+  margin: 50px;
+}
+
+.Product-info h4, .Company-info h4, .Connect-info h4 {
+  padding-bottom: 30px ;
+}
+
+
+@media (max-width: 768px) {'
+  '
+}
